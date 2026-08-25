@@ -17,6 +17,6 @@
 - [x] Confirmar e concluir a alteração do repositório para público.
 - [x] Preparar a publicação do repositório GitHub público no Cloudflare Pages.
 - [ ] Usuário deve confirmar a publicação pelo painel do Manus ou Cloudflare.
-- [ ] Corrigir erro da Cloudflare Pages: Wrangler não reconhece o array de plugins do Vite.
+- [x] Corrigir erro da Cloudflare Pages: Wrangler não reconhece o array de plugins do Vite.
 - [ ] Remover ou corrigir o comando de deploy incompatível com Pages.
 - [ ] Revalidar build e orientar novo deploy.

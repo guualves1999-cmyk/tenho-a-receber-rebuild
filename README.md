@@ -26,8 +26,9 @@ O build estático é gerado em `dist/public`.
 | Build output directory | `dist/public` |
 | Root directory | `/` |
 | Production branch | `main` |
+| Deploy command | **Deixe vazio** no Cloudflare Pages; não use `npx wrangler deploy` |
 
-O arquivo `client/public/_redirects` permite que as rotas do React funcionem em acessos diretos no Cloudflare Pages.
+O campo **Deploy command** deve ficar vazio quando o projeto for criado como Cloudflare Pages conectado ao GitHub. Não use `npx wrangler deploy`, pois esse comando é destinado a Workers/Wrangler e foi a causa do erro exibido. O arquivo `client/public/_redirects` permite que as rotas do React funcionem em acessos diretos no Cloudflare Pages.
 
 ## GitHub
 
