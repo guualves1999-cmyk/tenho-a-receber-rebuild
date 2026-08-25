@@ -8,3 +8,7 @@
 - [x] Manter Termos, Privacidade, Cookies e Contato vinculados às páginas institucionais originais.
 - [x] Validar build, responsividade, links e comportamento do temporizador.
 - [x] Criar o checkpoint final pronto para exportação ao GitHub e Cloudflare Pages.
+- [ ] Conectar o projeto ao repositório GitHub autorizado pelo usuário.
+- [ ] Confirmar o proprietário e o nome do repositório antes do envio.
+- [x] Confirmar criação do repositório privado `tenho-a-receber-rebuild` na conta `guualves1999-cmyk`.
+- [ ] Criar o repositório privado e enviar o código para `main`.
