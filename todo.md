@@ -24,3 +24,6 @@
 - [ ] Validar novamente o build e orientar o retry no Cloudflare.
 - [x] Adicionar `wrangler.json` com `assets.directory` apontando para `./dist/public`.
 - [x] Validar e enviar a configuração para o GitHub para novo deploy.
+- [ ] Acessar o painel da Cloudflare para diagnosticar o deploy com falha.
+- [ ] Corrigir diretamente a configuração, se a sessão estiver autenticada.
+- [ ] Confirmar o resultado do novo deploy.
