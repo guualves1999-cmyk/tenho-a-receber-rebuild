@@ -5,12 +5,20 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Legal from "./pages/Legal";
 
-
+/**
+ * Direção visual: editorial televisivo sóbrio, azul-marinho profundo, ouro verificado
+ * e navegação enxuta. Todas as rotas preservam o mesmo universo de marca.
+ */
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/termos"}>{() => <Legal document="termos" />}</Route>
+      <Route path={"/privacidade"}>{() => <Legal document="privacidade" />}</Route>
+      <Route path={"/cookies"}>{() => <Legal document="cookies" />}</Route>
+      <Route path={"/contato"}>{() => <Legal document="contato" />}</Route>
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -28,7 +36,6 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
       >
         <TooltipProvider>
           <Toaster />
