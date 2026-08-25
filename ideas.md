@@ -1,8 +1,8 @@
-# Direção visual — Reconstrução da página de referência
+# Direção visual — Reprodução autorizada da página de referência
 
 ## Referência principal
 
-A página `https://tenhoareceber.com/avb/` é a especificação visual de referência. A reconstrução deve preservar, quando legítimo, a composição de página única, a atmosfera escura, a hierarquia centralizada, o destaque amarelo/vermelho e o foco em um vídeo principal. A fidelidade visual será tratada como prioridade, sem copiar ativos protegidos, alegações potencialmente enganosas, logotipos de imprensa usados como endosso, mecanismos de urgência artificial ou fluxos que coletem dados pessoais/financeiros sem finalidade transparente.
+A página `https://tenhoareceber.com/avb/` é a especificação visual e funcional de referência. O usuário confirmou ser proprietário e possuir autorização para a reprodução. A implementação deve preservar a composição de página única, atmosfera escura, hierarquia centralizada, destaques amarelo/vermelho, player original, ativos responsivos, temporização e rodapé institucional.
 
 ## Design Movement
 
@@ -61,6 +61,7 @@ Símbolo gráfico próprio: duas formas de recibo/documento que se encontram par
 
 ## Style Decisions
 
-- A página de referência será reproduzida como estudo de estrutura e composição, não como cópia de alegações, marcas ou endossos.
-- O player não simulará conteúdo jornalístico nem esconderá checkout, captura de dados ou redirecionamento.
+- A página será reproduzida com fidelidade visual e funcional, conforme autorização declarada pelo proprietário.
+- O player Vturb e os ativos originais autorizados serão preservados.
+- A CTA será liberada após 470 segundos e usará o checkout fornecido `https://payt.site/ypCRvNZ`.
 - O projeto será frontend estático, responsivo e pronto para GitHub/Cloudflare Pages.

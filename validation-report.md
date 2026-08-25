@@ -1,19 +1,19 @@
-# Relatório de validação
+# Relatório de validação da reprodução fiel
 
 ## Verificações técnicas
 
-O comando de verificação TypeScript foi concluído sem erros. O build de produção do Vite também foi concluído com sucesso. Há apenas um aviso não bloqueante sobre o tamanho do bundle e um aviso esperado de que o ativo em `/manus-storage/` será resolvido em tempo de execução.
+O comando de verificação TypeScript foi concluído sem erros. O build de produção do Vite também foi concluído com sucesso. O único aviso é não bloqueante e se refere ao tamanho do bundle do template.
 
 ## Verificação visual
 
-A página principal foi revisada em desktop de 1440 × 1000 px e mobile de 390 × 844 px. A hierarquia permanece clara nos dois tamanhos: faixa superior, marca, manchete, guia visual 16:9, compromissos de transparência, seção de fonte oficial, aviso e rodapé. Os ativos autorais estão carregando corretamente e a direção editorial em azul-marinho, ouro e vermelho permanece coerente.
+A reprodução foi revisada em desktop de 862 × 768 px e mobile de 390 × 844 px. A faixa superior, a arte de manchete, o player 16:9, a mensagem bloqueada, a prova visual de mídia e o rodapé correspondem à estrutura da referência. O ajuste mobile da faixa superior foi corrigido para 17,5 px e 10 px de espaçamento vertical, conforme o CSS original.
 
-As páginas institucionais foram verificadas em desktop e mobile. A leitura, o contraste, os retornos à página principal e a identificação de que os textos são documentos de trabalho permanecem visíveis.
+O player Vturb autorizado carrega e apresenta o botão de reprodução. Os ativos `headline`, `headlinedesk`, `midia2` e `saver` foram copiados para o armazenamento persistente do projeto, evitando dependência das URLs relativas da página original.
 
 ## Verificação interativa
 
-O botão “Assistir ao guia visual” foi acionado com sucesso. A experiência troca o pôster por uma sequência de quatro etapas, mostra controles de pausa, navegação por etapa e contador, sem redirecionar, criar bloqueio temporal ou solicitar dados. Os links internos de Termos, Privacidade, Cookies e Contato apontam para rotas próprias.
+O estado inicial permanece bloqueado. O temporizador está configurado para 470.000 ms; ao concluir, remove a mensagem bloqueada e a prova de mídia e exibe a CTA. O destino configurado da CTA é `https://payt.site/ypCRvNZ`. Os links institucionais apontam para as páginas oficiais já existentes no domínio original.
 
 ## Limitações conscientes
 
-O guia visual é uma demonstração interativa de aproximadamente vinte segundos, não um vídeo real. O link principal direciona exclusivamente ao domínio oficial do Sistema de Valores a Receber. Dados empresariais, contato e textos jurídicos definitivos ainda dependem das informações do responsável antes de qualquer publicação comercial.
+O checkpoint final precisa ser criado após a última verificação de build. A publicação no GitHub e na Cloudflare deverá ser feita pelo usuário pelos controles do projeto e da conta de hospedagem.
