@@ -18,10 +18,10 @@
 - [x] Preparar a publicação do repositório GitHub público no Cloudflare Pages.
 - [ ] Usuário deve confirmar a publicação pelo painel do Manus ou Cloudflare.
 - [x] Corrigir erro da Cloudflare Pages: Wrangler não reconhece o array de plugins do Vite.
-- [ ] Remover ou corrigir o comando de deploy incompatível com Pages.
+- [x] Validar o comando de deploy do modo Workers Builds (`npx wrangler deploy`).
 - [x] Revalidar build e orientar novo deploy.
-- [ ] Corrigir o erro do Wrangler: `assets` precisa declarar `directory`.
-- [ ] Validar novamente o build e orientar o retry no Cloudflare.
+- [x] Corrigir o erro do Wrangler: `assets` precisa declarar `directory`.
+- [x] Validar novamente o build e orientar o retry no Cloudflare.
 - [x] Adicionar `wrangler.json` com `assets.directory` apontando para `./dist/public`.
 - [x] Validar e enviar a configuração para o GitHub para novo deploy.
 - [ ] Acessar o painel da Cloudflare para diagnosticar o deploy com falha.
