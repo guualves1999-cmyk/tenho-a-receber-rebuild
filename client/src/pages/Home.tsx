@@ -8,13 +8,6 @@ const PLAYER_ID = "vid-6a3fcccc2a950a2cf9463606";
 const CHECKOUT_URL = "https://payt.site/ypCRvNZ";
 
 export default function Home() {
-  // The useAuth hook provides authentication state.
-  // To implement login/logout, call logout(), or start login from an event
-  // handler: onClick={() => startLogin()} (imported from "@/const"). Never call
-  // startLogin() during render (no href={startLogin()}) — it mints a one-time
-  // nonce cookie and must run only at the moment of navigation.
-  let { user, loading, error, isAuthenticated, logout } = useAuth();
-
   const [unlocked, setUnlocked] = useState(false);
 
   useEffect(() => {
