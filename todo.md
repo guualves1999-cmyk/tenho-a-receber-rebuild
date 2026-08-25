@@ -29,3 +29,7 @@
 - [ ] Confirmar o resultado do novo deploy.
 - [ ] Forçar limpeza de `dist` antes do build para evitar _redirects residual no cache da Cloudflare.
 - [ ] Revalidar o deploy após limpar o cache de build do Cloudflare.
+- [ ] Corrigir imagens quebradas e referências `/manus-storage` no domínio Workers.
+- [ ] Corrigir player vazio no domínio publicado.
+- [ ] Ajustar largura, alinhamento e espaçamento para coincidir com a referência.
+- [ ] Corrigir a visibilidade inicial da CTA e dos selos de pagamento.

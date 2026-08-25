@@ -6,6 +6,7 @@ import { createElement, useEffect, useState } from "react";
  */
 const PLAYER_ID = "vid-6a3fcccc2a950a2cf9463606";
 const CHECKOUT_URL = "https://payt.site/ypCRvNZ";
+const ASSET_BASE = "https://tenho-recon-7bxm8jfx.manus.space/manus-storage";
 
 export default function Home() {
   const [unlocked, setUnlocked] = useState(false);
@@ -40,9 +41,9 @@ export default function Home() {
 
       <div id="heroHeadline" aria-label="Programa Resgate seus Valores">
         <picture>
-          <source media="(min-width:769px)" srcSet="/manus-storage/headlinedesk_56c8e3f7.webp" />
+          <source media="(min-width:769px)" srcSet={`${ASSET_BASE}/headlinedesk_2d7a25b1.webp`} />
           <img
-            src="/manus-storage/headline_495c750c.webp"
+            src={`${ASSET_BASE}/headline_bd10d1b8.webp`}
             alt="Programa Resgate seus Valores"
             width="1500"
             decoding="async"
@@ -68,7 +69,7 @@ export default function Home() {
           </a>
           <div className="avb-safe">
             <img
-              src="/manus-storage/saver_b5e28be2.webp"
+              src={`${ASSET_BASE}/saver_f45a8bab.webp`}
               width="1000"
               height="180"
               alt="Pagamento seguro · Pix ou cartão em 12x · Garantia de 7 dias"
@@ -82,8 +83,8 @@ export default function Home() {
       {!unlocked && (
         <div id="mediaProof" className="avb-media-proof">
           <img
-            src="/manus-storage/midia2_7d537934.webp"
-            srcSet="/manus-storage/midia2-720_c27718e1.webp 720w, /manus-storage/midia2_7d537934.webp 1500w"
+            src={`${ASSET_BASE}/midia2_e5c92052.webp`}
+            srcSet={`${ASSET_BASE}/midia2-720_029ca73b.webp 720w, ${ASSET_BASE}/midia2_e5c92052.webp 1500w`}
             sizes="(max-width:430px) 88vw, min(338px,27vw)"
             width="1500"
             height="171"
