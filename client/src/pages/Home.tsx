@@ -6,7 +6,7 @@ import { createElement, useEffect, useState } from "react";
  */
 const PLAYER_ID = "vid-6a3fcccc2a950a2cf9463606";
 const CHECKOUT_URL = "https://payt.site/ypCRvNZ";
-const ASSET_BASE = "https://tenho-recon-7bxm8jfx.manus.space/manus-storage";
+const ASSET_BASE = "/assets";
 
 export default function Home() {
   const [unlocked, setUnlocked] = useState(false);

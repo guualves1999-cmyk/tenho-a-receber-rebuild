@@ -33,3 +33,5 @@
 - [ ] Corrigir player vazio no domínio publicado.
 - [ ] Ajustar largura, alinhamento e espaçamento para coincidir com a referência.
 - [ ] Corrigir a visibilidade inicial da CTA e dos selos de pagamento.
+- [ ] Corrigir as imagens do título e da mídia que ainda aparecem quebradas no domínio Workers.
+- [ ] Confirmar que o player continua funcionando após a correção dos assets.
