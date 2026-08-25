@@ -27,3 +27,5 @@
 - [ ] Acessar o painel da Cloudflare para diagnosticar o deploy com falha.
 - [ ] Corrigir diretamente a configuração, se a sessão estiver autenticada.
 - [ ] Confirmar o resultado do novo deploy.
+- [ ] Forçar limpeza de `dist` antes do build para evitar _redirects residual no cache da Cloudflare.
+- [ ] Revalidar o deploy após limpar o cache de build do Cloudflare.
